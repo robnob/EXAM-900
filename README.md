@@ -18,7 +18,7 @@ Portal: A web-based unified console that provides an alternative to CLI tools. U
 <ins>Capabilities (Categories) :</ins>
 1. Compute Services: VM, containers and serverless computing, including micro-services for performing calculations, executing logics and running applications.
 2. Cloud Storage : disks attached to VM as well as wells as vault shares and databases.
-3. Networking : PN connections to on-premises environments, control and configure traffic.
+3. Networking : Linking compute resources and providing access to applications is the key function of Azure networking.
 4. App Hosting : for running applications in Windows or Linux.
 5. Artificial Intelligence : ML and conginitve services, search and analyze existing data to forecast future behaviours, outputs and trends.
 6. Internet of things : manage and integration of sensors and devices, to control and monitor all your assets through a customisable dashboard.
