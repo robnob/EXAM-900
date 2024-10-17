@@ -4,6 +4,21 @@
 
 ### INTRODUCTION
 
+What is Azure ? -> A cloud (on premises and at the edge) computing platform with a set of services.
+Applications:
+* Build
+* Manage
+* Deploy
+
+It includes services on internet: storage, dbs, networking, software, analytics and AI.
+
+Portal: A web-based unified console that provides an alternative to CLI tools. Used for custom fit workflow, projects and styles. Manage subscription. It updates continuously and there is no downtime for maintenance. It is resilient to individual datacenter failures and avoird network slowdowns.
+* Build, manage and monitor
+* Create custom dashboards
+* Configure accesibility options
+
+<strong> Azure Marketplace </strong>
+
 ### FUNDAMENTAL CONCEPTS & ARCHITECTURAL COMPONENTS
 
 ### DB, ANALYTICS AND COMPUTE SERVICES
