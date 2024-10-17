@@ -15,6 +15,16 @@ Portal: A web-based unified console that provides an alternative to CLI tools. U
 
 ![screenshot](https://github.com/robnob/EXAM-900/blob/main/01How_does_azure_work.JPG)
 
+<ins>Capabilities (Categories) :</ins>
+1. Compute Services: VM, containers and serverless computing, including micro-services for performing calculations, executing logics and running applications.
+2. Cloud Storage : disks attached to VM as well as wells as vault shares and databases.
+3. Networking : PN connections to on-premises environments, control and configure traffic.
+4. App Hosting : for running applications in Windows or Linux.
+5. Artificial Intelligence : ML and conginitve services, search and analyze existing data to forecast future behaviours, outputs and trends.
+6. Internet of things : manage and integration of sensors and devices, to control and monitor all your assets through a customisable dashboard.
+7. Integration : logic apps and service bus connect applications and services, it allow workflows to orchestrate business processes.
+8. Security : integrated in every aspect of Azure, Identity Management control, global security intelligence monitoring.
+
 <strong> Azure Marketplace </strong>
 
 It connects Azure users to microsoft vendor partners and startups. Applications and services:
