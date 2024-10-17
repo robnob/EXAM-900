@@ -4,11 +4,7 @@
 
 ### INTRODUCTION
 
-What is Azure ? -> A cloud (on premises and at the edge) computing platform with a set of services.
-Applications:
-* Build
-* Manage
-* Deploy
+What is Azure ? -> A private and public cloud computing platform (on premises and at the edge) with a set of services ready to use to build, manage and deploy applications.
 
 It includes services on internet: storage, dbs, networking, software, analytics and AI.
 
