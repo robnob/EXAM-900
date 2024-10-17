@@ -13,7 +13,7 @@ Portal: A web-based unified console that provides an alternative to CLI tools. U
 * Create custom dashboards
 * Configure accesibility options
 
-![Screenshot] (https://github.com/robnob/EXAM-900/blob/main/01How_does_azure_work.PNG)
+![alt text](https://github.com/robnob/EXAM-900/blob/main/01How_does_azure_work.PNG)
 
 <strong> Azure Marketplace </strong>
 
