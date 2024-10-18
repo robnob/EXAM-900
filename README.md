@@ -43,6 +43,8 @@ Solutions catalogue categories:
 6. Developement Tools
 7. Deployment Software
 
+   [List of Azure Services](https://github.com/robnob/EXAM-900/blob/main/List%20of%20Azure%20services%20_%20Coursera.pdf)
+
 ### FUNDAMENTAL CONCEPTS & ARCHITECTURAL COMPONENTS
 
 ### DB, ANALYTICS AND COMPUTE SERVICES
