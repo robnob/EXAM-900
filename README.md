@@ -47,7 +47,7 @@ Solutions catalogue categories:
 
 Account Vs Subscriptions:
 
-![screenshot](https://github.com/robnob/EXAM-900/blob/main/02Accounts_Vs_Subsciptions.JPG)
+![screenshot](https://github.com/robnob/EXAM-900/blob/main/02Accounts_Vs_Subscriptions.JPG)
 
 
 
