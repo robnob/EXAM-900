@@ -51,6 +51,8 @@ Account Vs Subscriptions:
 
 
 
+
+
 ### FUNDAMENTAL CONCEPTS & ARCHITECTURAL COMPONENTS
 
 #### Benefits of Cloud Environment Vs a physical one
@@ -67,7 +69,13 @@ Account Vs Subscriptions:
 1. CAPEX: Capital expenditures (the value reduces over time)
 2. OPEX: Operational expenditures (build at the moment of use)
 
+<strong> IaaS, Vs. PaaS Vs. SaaS: </strong>
+
 ![screenshot](https://github.com/robnob/EXAM-900/blob/main/03Saas_Paas_Iaas.JPG)
+
+<strong> Client Vs Provider: </strong>
+
+![screenshot](https://github.com/robnob/EXAM-900/blob/main/04ClientVsProvider.JPG)
 
 ### DB, ANALYTICS AND COMPUTE SERVICES
 
