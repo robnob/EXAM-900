@@ -67,6 +67,8 @@ Account Vs Subscriptions:
 1. CAPEX: Capital expenditures (the value reduces over time)
 2. OPEX: Operational expenditures (build at the moment of use)
 
+![screenshot](https://github.com/robnob/EXAM-900/blob/main/03Saas_Paas_Iaas.JPG)
+
 ### DB, ANALYTICS AND COMPUTE SERVICES
 
 #### COSMOS DB
