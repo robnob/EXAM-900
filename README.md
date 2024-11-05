@@ -53,6 +53,20 @@ Account Vs Subscriptions:
 
 ### FUNDAMENTAL CONCEPTS & ARCHITECTURAL COMPONENTS
 
+#### Benefits of Cloud Environment Vs a physical one
+
+1. Availability
+2. Scalability
+3. Elasticity
+4. GeoDistribution
+5. Agility
+6. Disaster Recovery
+
+#### Two types of expenditures
+
+1. CAPEX: Capital expenditures (the value reduces over time)
+2. OPEX: Operational expenditures (build at the moment of use)
+
 ### DB, ANALYTICS AND COMPUTE SERVICES
 
 #### COSMOS DB
