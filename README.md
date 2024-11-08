@@ -45,15 +45,54 @@ Solutions catalogue categories:
 
    [List of Azure Services](https://github.com/robnob/EXAM-900/blob/main/List%20of%20Azure%20services%20_%20Coursera.pdf)
 
-Account Vs Subscriptions:
-
-![screenshot](https://github.com/robnob/EXAM-900/blob/main/02Accounts_Vs_Subscriptions.JPG)
-
 
 
 
 
 ### FUNDAMENTAL CONCEPTS & ARCHITECTURAL COMPONENTS
+
+#### Subscriptions, Management groups, resources and regions
+
+Account Vs Subscriptions:
+
+![screenshot](https://github.com/robnob/EXAM-900/blob/main/02Accounts_Vs_Subscriptions.JPG)
+
+An <strong> Azure resource </strong> is an item that is available through Azure: VMs, storage accounts, webex, Azure application gateway instances, Dbs and VNs are some exemples of resources.
+   * They must be organised into containers, the <strong> Resource Group </strong>
+   * A ressource cannot be a memeber of more than one resource group.
+   * Resource groups cannot be nested.
+   * It is better to group resources by life cycle in non-production environments.
+   * Apply RBAC (Role-based access control)permissions to ease administration and limit access.
+ 
+The <strong> Azure resource Manager (ARM) </strong>: the deployment and management service for Azure, 
+   * It allows creating, updating and deleting a resource.
+   * Features like : access control, locks and tags to secure and organize your resources after deployment.
+   * It get the requests from any Azure tool API and from any other SDK.
+ 
+<strong> Azure Management Groups </strong> provides a level of scope above subscriptions, it is a container where the governance conditions are applied:
+  * The subscriptions attached to the group automatically inherit these conditions,
+  * All the subscriptions in the same management group should rely in the same trust ID tenant.
+  * Up to 10.000 groups can be created.
+  * Up to 6 levels of depth (excluding the root and the subscriptions levels)
+  * One parent per group, but 1 to many children.
+  * Single hierarchy.
+
+An <strong> Azure Subscription </strong>, a logical unit of Azure services, provides you with:
+  1. Authenticated and authorised access to Azure products and services and
+  2. It allows you to provision resources.
+ 
+   There are two types of subscription boundaries:
+  1. Billing: it determines how the Azure account, it is possible to create multiple subscriptions for each type of billing requirements. The repports and invoices are generated separately for each subscription.
+  2. Access control: acces management policies at the subscription level, it is possible to create different subscriptions to reflect different organizations's structures.
+ 
+The creation of subscriptions could follow the needs of reflecting:
+   * All possible environments (Production, pre-production, etc.)
+   * Organizational structures
+   * Billing
+
+<strong> Azure account </strong> is an identity in the Azure Active directory or in another directory in which the Azure ID trusts.
+
+  
 
 #### Benefits of Cloud Environment Vs a physical one
 
@@ -76,6 +115,12 @@ Account Vs Subscriptions:
 <strong> Client Vs Provider: </strong>
 
 ![screenshot](https://github.com/robnob/EXAM-900/blob/main/04ClientVsProvider.JPG)
+
+#### Types de Deploiement
+
+1. Hybrid
+2. Public
+3. Private
 
 ### DB, ANALYTICS AND COMPUTE SERVICES
 
