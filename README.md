@@ -51,7 +51,7 @@ Solutions catalogue categories:
 
 ### FUNDAMENTAL CONCEPTS & ARCHITECTURAL COMPONENTS
 
-#### Subscriptions, Management groups, resources and regions
+#### Subscriptions, Management groups, ARM, resources and accounts 
 
 Account Vs Subscriptions:
 
@@ -68,6 +68,15 @@ The <strong> Azure resource Manager (ARM) </strong>: the deployment and manageme
    * It allows creating, updating and deleting a resource.
    * Features like : access control, locks and tags to secure and organize your resources after deployment.
    * It get the requests from any Azure tool API and from any other SDK.
+   * It manages resources with templates (a json file) rather than with scripts
+   * Deploy resources within a group and not individually
+   * Redeploy solutions
+   * Define dependencies
+   * Apply RBACs
+   * Apply tags
+   * Clarify the organization billing
+
+![screenshot](https://github.com/robnob/EXAM-900/blob/main/05ARM.JPG)
  
 <strong> Azure Management Groups </strong> provides a level of scope above subscriptions, it is a container where the governance conditions are applied:
   * The subscriptions attached to the group automatically inherit these conditions,
@@ -83,7 +92,7 @@ An <strong> Azure Subscription </strong>, a logical unit of Azure services, prov
  
    There are two types of subscription boundaries:
   1. Billing: it determines how the Azure account, it is possible to create multiple subscriptions for each type of billing requirements. The repports and invoices are generated separately for each subscription.
-  2. Access control: acces management policies at the subscription level, it is possible to create different subscriptions to reflect different organizations's structures.
+  2. Access control: access management policies at the subscription level, it is possible to create different subscriptions to reflect different organizations's structures.
  
 The creation of subscriptions could follow the needs of reflecting:
    * All possible environments (Production, pre-production, etc.)
@@ -92,7 +101,27 @@ The creation of subscriptions could follow the needs of reflecting:
 
 <strong> Azure account </strong> is an identity in the Azure Active directory or in another directory in which the Azure ID trusts.
 
-  
+#### Regions and availability zones
+
+  Region: a geographical area in the planet:
+  *   It contains one or more data centers
+  *   It is needed to deploy resources:
+        Some services (Vms sizes and storage types) are available just in some regions
+        Some services do not need to select a region, like AD, DNS and traffic manager, they are global.
+        it is needed to select one when provisionzing resources, but some of them are available globally.
+        
+  Availability Zones are different physical data centers within a region with independent:
+   *   Cooling
+   *   Power
+   *   Networking
+
+   There are two categories of availability zones:
+   1. <strong> Zonal services: </strong> you pin the resource to a specific zone, i.e. VMs, managed disks and IP addresses.
+   2. <strong> Zone redundant services: </strong> The platform replicates automatically across zone, I.e. storage, SQL DB.
+
+Region Pairs
+
+Regions in the same geography that are paired to contour regional disasters
 
 #### Benefits of Cloud Environment Vs a physical one
 
