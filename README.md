@@ -27,7 +27,7 @@ Portal: A web-based unified console that provides an alternative to CLI tools. U
 
 <strong> Azure Marketplace </strong>
 
-It connects Azure users to microsoft vendor partners and startups. Applications and services:
+It connects Azure users to microsoft vendor partners and startups. It is an online store that hosts applications that are certified and optimized to run in Azure. Applications and services:
 * Find
 * Try
 * Purchase
