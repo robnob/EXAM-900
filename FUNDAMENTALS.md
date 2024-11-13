@@ -51,7 +51,10 @@ Cloud computing falls under OpEx, beacause the client pays for its use. It is th
  
 #### Reliability and Predicatbility
 
-
+* Reliability: the ability of a system to recover of failure.
+* Predicatbility:
+  - Perfomance:
+  - Cost: 
 
 
 ## ARCHITECTURE AND SERVICES
