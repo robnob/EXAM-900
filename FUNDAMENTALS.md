@@ -37,9 +37,26 @@ OpEx: It is an expenditure ein services or products over time.
 
 Cloud computing falls under OpEx, beacause the client pays for its use. It is the pay-as-you-go pricing model.
 
+### Benefits
+
+#### Availability and Scalability
+
+* Availability: the resources are available regardless disruptions or any other events, also known as Up time and it is measurable in % in the SLAs.
+  Examples:
+  * 99% -> 1,68hrs downtime / week or 7,2hrs /month
+  * 99,9 % -> 10min / week or 43,2 min / month
+* Scalability: The resources can increase or decrease (manually or automatically) depending on the demand. There two types:
+  1. Vertical: focus on the capabilities of ressources (more or less  CPUs ou RAM)
+  2. Horizontal: focus on the number of ressources (more, "scaling out"  or less "scaling in" VMs or containers)
+ 
+#### Reliability and Predicatbility
+
+
+
 
 ## ARCHITECTURE AND SERVICES
 ## MANAGEMENT AND GOVERNANCE
-## ACRONYMS:
+## ACRONYMS
 
 <strong> RBAC: </strong> Role-based Access Control
+<strong> SLAs: </strong>: Service level agreements
