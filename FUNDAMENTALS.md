@@ -10,7 +10,9 @@
 6. ML
 7. AI
 
-### Shared responsibility model
+### Azure Models
+
+#### Shared responsibility model
 <ins> IaaS </ins>:  Infrastructure as a Service, it places the most responsibility on the consumer, with the cloud provider being responsible for the basics of physical security, power, and connectivity
 
 <ins>PaaS </ins>:  Platform as a Service
@@ -19,7 +21,7 @@
 
 ![Screenshot](https://github.com/robnob/EXAM-900/blob/main/06SRM.JPG)
 
-### Cloud Models
+#### Cloud Models
 
 1. Public: The general public availability is a key difference between public and private clouds
 2. Private: It’s a cloud that’s used by a single entity.
@@ -27,6 +29,13 @@
 4. Multi-Cloud: It uses multiple public cloud providers.
 
 <ins>Azure Arc </ins> : A set of technologies that help you to manage your cloud environment on any of the described models.
+
+#### Consumption Models
+
+CapEx: it is a one-time up-front expenditure.
+OpEx: It is an expenditure ein services or products over time.
+
+Cloud computing falls under OpEx, beacause the client pays for its use. It is the pay-as-you-go pricing model.
 
 
 ## ARCHITECTURE AND SERVICES
