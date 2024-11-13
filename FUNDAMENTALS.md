@@ -11,13 +11,22 @@
 7. AI
 
 ### Shared responsibility model
-<ins> IaaS </ins>:  Infrastructure as a Service
+<ins> IaaS </ins>:  Infrastructure as a Service, it places the most responsibility on the consumer, with the cloud provider being responsible for the basics of physical security, power, and connectivity
 
 <ins>PaaS </ins>:  Platform as a Service
 
-<ins> SaaS </ins>:  SOftware as a Service
+<ins> SaaS </ins>:  Software as a Service, it places most of the responsibility with the cloud provider
 
 ![Screenshot](https://github.com/robnob/EXAM-900/blob/main/06SRM.JPG)
+
+### Cloud Models
+
+1. Public: The general public availability is a key difference between public and private clouds
+2. Private: It’s a cloud that’s used by a single entity.
+3. Hybrid: It is used to allow a private cloud to surge for increased, temporary demand by deploying public cloud resources and also to provide an extra layer of security
+4. Multi-Cloud: It uses multiple public cloud providers.
+
+<ins>Azure Arc </ins> : A set of technologies that help you to manage your cloud environment on any of the described models.
 
 
 ## ARCHITECTURE AND SERVICES
