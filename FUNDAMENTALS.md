@@ -53,8 +53,8 @@ Cloud computing falls under OpEx, beacause the client pays for its use. It is th
 
 * Reliability: the ability of a system to recover of failure.
 * Predicatbility:
-  - Perfomance:
-  - Cost: 
+  - Perfomance: focus on predicting the resources needed to deliver a positive experience to the customer, supported by, among other concepts:  autoscaling, load balancing and high availability.
+  - Cost: Forecast the cost of the cloud spend, track real time use, monitor if the ressources are used in an efficient way and apply data analytics.
 
 
 ## ARCHITECTURE AND SERVICES
