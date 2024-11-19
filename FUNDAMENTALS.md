@@ -37,7 +37,7 @@ OpEx: It is an expenditure ein services or products over time.
 
 Cloud computing falls under OpEx, beacause the client pays for its use. It is the pay-as-you-go pricing model.
 
-## MANAGEMENT AND GOVERNANCE
+## ARCHITECTURE AND SERVICES
 
 ### Benefits
 
@@ -76,8 +76,8 @@ Cloud computing falls under OpEx, beacause the client pays for its use. It is th
   - CLI
   - APIs
   - PowerShell
-    
-## ARCHITECTURE AND SERVICES
+ 
+## MANAGEMENT AND GOVERNANCE
 
 ## ACRONYMS
 
