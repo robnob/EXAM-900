@@ -79,9 +79,22 @@ Cloud computing falls under OpEx, beacause the client pays for its use. It is th
  
 ## MANAGEMENT AND GOVERNANCE
 
+### Factors
+ 1. Resource Type
+ 2. Consumption
+ 3. Maintenance
+ 4. Geography
+ 5. Subscription type
+ 6. Marketplace
+
+#### Resource Type
+
+When provisioning a resource Azure creates a metered instaces to track its usage that generates a usage record for billing purposes. The <strong> Region </strong>, <strong> type </strong> and the <strong> settings </strong> are factors to consider when calculating the costs of a resource.
+
 ## ACRONYMS
 
-<strong> RBAC: </strong> Role-based Access Control
-<strong> SLAs: </strong>: Service level agreements
-<strong> DDOs: </strong>: Distributed Deniel of Service
+* <strong> RBAC: </strong> Role-based Access Control*
+* <strong> SLAs: </strong>: Service level agreements
+* <strong> DDOs: </strong>: Distributed Deniel of Service
+* <strong> TCO: </strong>: Total Cost of Ownership Calculator
 
