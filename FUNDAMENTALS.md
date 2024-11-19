@@ -55,6 +55,25 @@ Cloud computing falls under OpEx, beacause the client pays for its use. It is th
 * Predicatbility:
   - Perfomance: focus on predicting the resources needed to deliver a positive experience to the customer, supported by, among other concepts:  autoscaling, load balancing and high availability.
   - Cost: Forecast the cost of the cloud spend, track real time use, monitor if the ressources are used in an efficient way and apply data analytics.
+ 
+#### Governance and Security
+
+* Governance: a set of templates help in maintaining industrie standards and government requirements. Flags can be used to easily recognize those service that are out of compliance
+* Security: Azure is prepared to apply DDOs and depending on the chosen cloud model (IaaS, PaaS, SaaS) the security over the management of the resources changed from client to the clous provider.
+
+#### Manageability
+
+* Of the cloud: (managing your cloud resources)
+  - Automatic scaling
+  - Use of templates for deploying
+  - Monitor of health of resources
+  - Alerts receiving based on configured metrics.
+    
+* In the cloud (how to manage the cloud environment and resources):
+  - Web Portal
+  - CLI
+  - APIs
+  - PowerShell
 
 
 ## ARCHITECTURE AND SERVICES
@@ -63,3 +82,5 @@ Cloud computing falls under OpEx, beacause the client pays for its use. It is th
 
 <strong> RBAC: </strong> Role-based Access Control
 <strong> SLAs: </strong>: Service level agreements
+<strong> DDOs: </strong>: Distributed Deniel of Service
+
